@@ -1,0 +1,28 @@
+.addressData p {
+  margin-bottom: 0rem;
+  font-size: 0.8rem;
+}
+.addressesContainer {
+  display: flex;
+  gap: 2rem;
+  border: 1px solid grey;
+  align-items: flex-start;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.addressData p span {
+  font-weight: bold;
+}
+.deleteBtnContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+}
+.deleteBtn {
+  text-align: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+

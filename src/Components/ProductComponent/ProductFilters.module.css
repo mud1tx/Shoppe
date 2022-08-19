@@ -1,0 +1,97 @@
+.filterContainer {
+  padding: 2rem;
+  position: sticky;
+  top: 6rem;
+  height: 85vh;
+  overflow: auto;
+  margin-bottom: 2rem;
+}
+.heading-clear {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+.clearFilter {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.clear_cancel_btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cancelBtn {
+  display: none;
+}
+/* category */
+.categoryListContainer {
+  list-style-type: none;
+}
+.categoryContainer {
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+.categoryListContainer li {
+  padding: 0.05rem;
+}
+.categoryHeadingContainer {
+  padding-top: 1rem;
+}
+/* price */
+.priceContainer {
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+.inputBar input {
+  width: 100%;
+}
+.inputBar {
+  padding-bottom: 0.5rem;
+}
+.priceHeadingContainer {
+  padding-top: 1rem;
+}
+/* rating */
+.ratingListContainer {
+  list-style-type: none;
+}
+.ratingContainer {
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+.ratingListContainer li {
+  padding: 0.05rem;
+}
+.ratingHeadingContainer {
+  padding-top: 1rem;
+}
+/* sort */
+.sortListContainer {
+  list-style-type: none;
+}
+.sortContainer {
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+.sortListContainer li {
+  padding: 0.05rem;
+}
+.sortHeadingContainer {
+  padding-top: 1rem;
+}
+.categoryListContainer li label,
+.categoryListContainer li label input,
+.inputBar input,
+.ratingListContainer li label input,
+.ratingListContainer li label,
+.sortListContainer li label input,
+.sortListContainer li label {
+  cursor: pointer;
+}
+@media screen and (max-width: 770px) {
+  .cancelBtn {
+    display: block;
+  }
+}

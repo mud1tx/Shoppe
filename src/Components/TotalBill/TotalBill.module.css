@@ -1,0 +1,56 @@
+.billContainer p {
+  margin-bottom: 0;
+}
+.billContainer {
+  border: 1px solid grey;
+}
+.item p {
+  margin-bottom: 0;
+}
+.item {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.deliveryPriceContainer,
+.priceContainer,
+.totalPriceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.deliveryPriceContainer p,
+.priceContainer p,
+.totalPriceContainer p {
+  margin-bottom: 0rem;
+}
+.placeOrderBtn {
+  width: 100%;
+}
+.placeOrderBtn button {
+  cursor: pointer;
+  margin:1rem  auto;
+  width: 90%;
+  display: block;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.6rem 0rem;
+}
+.placeOrderBtn button:hover {
+  background-color: rgb(53, 52, 52);
+}
+.placeOrderBtn button:disabled {
+  background-color: rgb(109, 108, 108);
+}
+.OrderSummaryHeading,
+.priceDetailHeading,
+.deliverToHeading {
+  text-align: center;
+  padding: 0.5rem 0rem;
+  border-bottom: 1px solid grey;
+}
+.detail {
+  padding: 1rem;
+  padding-bottom: 0;
+}

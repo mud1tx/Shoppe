@@ -1,0 +1,39 @@
+.billContainer {
+  border: 1px solid black;
+  padding: 0 1rem;
+  border-radius: 7px;
+}
+.heading {
+  text-align: center;
+  margin: 2rem 0;
+}
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border-top: 1px solid grey;
+  padding-top: 1rem;
+}
+.deliveryPriceContainer,
+.totalPriceContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.totalPriceContainer {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+.checkoutBtn {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0rem;
+}
+.checkoutBtn:hover {
+  background-color: rgb(53, 52, 52);
+}

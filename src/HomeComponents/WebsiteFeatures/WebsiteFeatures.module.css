@@ -1,0 +1,23 @@
+.features-container {
+  margin: 5rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
+  justify-content: space-between;
+}
+.verifiedContainer,
+.fastDeliveryContainer,
+.creditCardContainer {
+  text-align: center;
+  padding: 2rem;
+}
+.verified,
+.fastDelivery,
+.creditCard {
+  font-size: 40px;
+  cursor: pointer;
+}
+@media screen and (max-width: 623px) {
+  .features-container {
+    justify-content: center;
+  }
+}

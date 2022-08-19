@@ -1,0 +1,40 @@
+.itemContainer {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  gap: 0.8rem;
+  align-items: center;
+  border: 1px solid grey;
+  margin-bottom: 1rem;
+}
+.itemData p {
+  margin-bottom: 0rem;
+}
+.orderCard {
+  padding: 0 0.6rem;
+}
+.orderId,
+.amount,
+.address {
+  display: flex;
+  gap: 1rem;
+}
+.allOrderProducts {
+  border-bottom: 1px solid grey;
+  margin-bottom: 0.4rem;
+}
+.links {
+  width: 50%;
+  height: 100%;
+}
+.links img {
+  width: 100%;
+}
+.addressDetailInfo p {
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 432px) {
+  .itemContainer {
+    flex-direction: column;
+  }
+}

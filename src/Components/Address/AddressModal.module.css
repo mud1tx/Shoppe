@@ -1,0 +1,47 @@
+.modalBackground {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modal {
+  background-color: rgb(225, 225, 225);
+  margin: auto;
+  z-index: 1000000;
+  position: fixed;
+  width: 20rem;
+  overflow-y: auto;
+  max-height: 90vh;
+  padding: 1rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 0.3rem;
+}
+form .inputDetails {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-size: 0.8rem;
+  gap: 0.25rem;
+  padding: 1rem 0rem;
+  width: 100%;
+}
+.inputDetails input {
+  padding: 0.5rem 0.3rem;
+}
+.errorMessage {
+  color: red;
+}
+.btns {
+  display: flex;
+  gap: 0.4rem;
+}
+.cancelBtn,.addBtn {
+  flex: 1;
+  padding: 0.2rem 0rem;
+}

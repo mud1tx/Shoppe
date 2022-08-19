@@ -1,0 +1,69 @@
+.company_logo,
+.company_logo:focus,
+.company_logo:hover,
+.company_logo:visited,
+.company_logo:link,
+.company_logo:active {
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  margin-top: 1rem;
+}
+.footer div {
+  flex-basis: 100%;
+}
+.name-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.personal-details {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.name-logo img {
+  height: 3rem;
+  margin-right: 1rem;
+}
+.links {
+  display: flex;
+  gap: 0 1rem;
+}
+.links a {
+  color: white;
+}
+.links a:hover {
+  color: white;
+}
+.quick-links {
+  margin-bottom: 1rem;
+}
+.addressDetail {
+  display: flex;
+  align-items: center;
+  gap: 0 1rem;
+}
+.quickLinkProducts,
+.quickLinkWishlist,
+.quickLinkCart {
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .personal-details {
+    margin-bottom: 1rem;
+  }
+  .website-links {
+    margin-bottom: 1rem;
+  }
+}

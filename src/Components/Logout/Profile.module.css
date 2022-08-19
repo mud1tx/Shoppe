@@ -1,0 +1,125 @@
+.dashboardBackground {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid grey;
+}
+.signoutbtn {
+  margin: 0.5rem 0;
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.signoutbtn:hover,
+.signoutbtn:focus {
+  background-color: rgb(53, 52, 52);
+}
+.updateProfile:visited {
+  color: white;
+}
+.updateProfile {
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+.userDataContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  flex: 2;
+}
+.heading {
+  text-align: center;
+  margin: 1rem 0;
+}
+.profileWrapper {
+  padding: 0rem 1rem;
+}
+.email {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.linkData {
+  max-width: 400px;
+  height: 100%;
+  margin: auto;
+  /* margin: 0 1rem; */
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+.profileData {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+.img p {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.733);
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkContainer {
+  border-bottom: 1px solid grey;
+  display: flex;
+}
+.profileLink,
+.orderLink {
+  flex: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+.profileLink:focus,
+.orderLink:focus {
+  border-bottom: 4px solid grey;
+}
+.noProduct {
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+@media screen and (max-width: 560px) {
+  .heading {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 427px) {
+  .linkData {
+    margin: 0 1rem;
+  }
+}
+@media screen and (max-width: 368px) {
+  .profileData {
+    flex-direction: column;
+  }
+}
