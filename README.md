@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+<div align="center">
+      <h1> <img src="https://shoppe-ecommerce.netlify.app" width="80px"><br/>Shoppe</h1>
+     </div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Description
+Shoppe is an ecommerce web app where you can buy multiple items.The website has a very good UI/UX Design.At present the website contain products related to men's and women's wear and electonics gadgets.
 
-In the project directory, you can run:
+# Features
+-The website contain the Login and Signup feature
+-It also contain change password and create new password feature
+-Have add to cart feature
+-Have a payment integration method using stripe
+-All the user data is saved in the local storage
+-Order history will also be save
+-It also contain a filter product component
+-The website is fully responsive according to all the devices
+-It also has a add to wishlist option
+-contain in-depth detail of each product
+# Screenshots
+ <img src="https://res.cloudinary.com/dbama3nub/image/upload/v1677430663/Screenshot_271_xva1uj.png"> <img src="https://res.cloudinary.com/dbama3nub/image/upload/v1677430706/Screenshot_269_hfy3lk.png"> <img src="https://res.cloudinary.com/dbama3nub/image/upload/v1677430724/Screenshot_272_zzyb5x.png"> <img src="https://res.cloudinary.com/dbama3nub/image/upload/v1677430751/Screenshot_274_rqyv1c.png"> <img src="https://res.cloudinary.com/dbama3nub/image/upload/v1677430750/Screenshot_275_qpsrlh.png">
+# Tech Used
+ ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+      
+# Details:
 
-### `npm start`
+### How to Setup:
+- Step 1: create a firebase account
+- Step 2: create a .env file to add the below details
+               -REACT_APP_FIREBASE_API_KEY=
+               -REACT_APP_FIREBASE_AUTH_DOMAIN=
+               -REACT_APP_FIREBASE_PROJECT_ID=
+               -REACT_APP_FIREBASE_STORAGE_BUCKET=
+               -REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+               -REACT_APP_FIREBASE_APP_ID=
+               -REACT_APP_KEY=
+                All these detail you will get from Firebase while creating a project account
+- Step 3: run the command npm install,to install the npm package
+- Step 4: run the command npm start to run the project in localhost
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### You can add 
+[Links](https://shoppe-ecommerce.netlify.app)
+ 
+![](https://raw.githubusercontent.com/mud1tx/React-Ecommerce/master/public/images/company-logo.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+      
+<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
+    
