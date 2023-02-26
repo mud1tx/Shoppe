@@ -1,5 +1,5 @@
 <div align="center">
-      <h1> <img src="https://shoppe-ecommerce.netlify.app" width="80px"><br/>Shoppe</h1>
+      <h1> <img src="https://raw.githubusercontent.com/mud1tx/React-Ecommerce/master/public/images/company-logo.png" width="80px"><br/>Shoppe</h1>
      </div>
 
 
