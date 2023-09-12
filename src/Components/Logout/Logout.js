@@ -58,7 +58,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div>
-              <NavLink to="/update-profile" className={classes.updateProfile}>
+            <NavLink style={{"color":"white"}} to="/update-profile" className={classes.updateProfile}>
                 Update Profile
               </NavLink>
             </div>

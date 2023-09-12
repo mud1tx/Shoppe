@@ -40,24 +40,8 @@ const TotalBill = () => {
   const { ordersdispatch } = useOrders();
   const { selectAddressState } = useSelectAddress();
   const makePayment = async (token) => {
-    const body = {
-      token,
-      product,
-    };
-    const headers = {
-      "Content-Type": "application/json",
-    };
     try {
-      // const response = await fetch("http://localhost:8282/checkout", {
-        const response = await fetch(
-          "https://ry7v05l6on.sse.codesandbox.io/checkout",
-          {
-            method: "POST",
-            headers,
-            body: JSON.stringify(body),
-          }
-        );
-      if (response.ok) {
+      
         ordersdispatch({
           type: "ADD_ORDER",
           payload: {
@@ -75,23 +59,12 @@ const TotalBill = () => {
           draggable: true,
           progress: undefined,
         });
-      } else {
-        toast.error(" Order Placed Successfully", {
-          position: "top-right",
-          autoClose: 2000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        });
-      }
+        navigate("/logout/orders");
       dispatch({
         type: "REMOVE_ALL",
       });
-      navigate("/logout/orders");
     } catch (error) {
-      return console.log(error);
+      console.log(error);
     }
   };
   const [btnDisable, setBtnDisable] = useState();

@@ -37,7 +37,7 @@ const OrderCard = (props) => {
           <p>
             <strong>Amount Paid: </strong>
           </p>
-          <p>{(sumWithInitial + deliverycharge).toFixed(0)}</p>
+          <p>$ {(sumWithInitial + deliverycharge).toFixed(0)}</p>
         </div>
         <div className={classes.address}>
           <p>
