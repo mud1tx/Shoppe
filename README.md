@@ -27,14 +27,18 @@ Shoppe is an ecommerce web app where you can buy multiple items.The website has 
 ### How to Setup:
 - Step 1: create a firebase account
 - Step 2: create a .env file to add the below details
-               - REACT_APP_FIREBASE_API_KEY=
-               - REACT_APP_FIREBASE_AUTH_DOMAIN=
-               - REACT_APP_FIREBASE_PROJECT_ID=
-               - REACT_APP_FIREBASE_STORAGE_BUCKET=
-               - REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
-               - REACT_APP_FIREBASE_APP_ID=
-               - REACT_APP_KEY=
-                All these detail you will get from Firebase while creating a project account
+-
+-   
+- REACT_APP_FIREBASE_API_KEY=
+- REACT_APP_FIREBASE_AUTH_DOMAIN=
+- REACT_APP_FIREBASE_PROJECT_ID=
+- REACT_APP_FIREBASE_STORAGE_BUCKET=
+- REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+- REACT_APP_FIREBASE_APP_ID=
+- REACT_APP_KEY=
+- All these detail you will get from Firebase while creating a project account
+-
+-
 - Step 3: run the command npm install,to install the npm package
 - Step 4: run the command npm start to run the project in localhost
 
