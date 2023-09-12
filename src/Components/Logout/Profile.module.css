@@ -63,10 +63,9 @@
   font-weight: bold;
 }
 .linkData {
-  max-width: 400px;
+  max-width: 500px;
   height: 100%;
   margin: auto;
-  /* margin: 0 1rem; */
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
